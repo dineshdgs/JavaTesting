@@ -17,7 +17,7 @@ public class PriceSearching {
 		 
 			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Dinesh K\\eclipse-workspace\\Java_Testing\\drivercurrent\\chromedriver.exe");
 			driver =new ChromeDriver();
-			driver.get("https://www.tagexpo.in/exhibitor");
+			driver.get("https://www.1clxlite.com/");
 			driver.manage().window().maximize();
 			 
 			driver.findElement(By.xpath("//button[@class='msme-btn msme_close_btn']")).click();

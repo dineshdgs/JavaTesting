@@ -3,13 +3,13 @@
 <suite name="Failed suite [1clx]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Cross_browser_Testing.Cross_browser_test">
+      <class name="BasicTesting.Demo_Responsive">
         <methods>
-          <include name="Choosing_browser"/>
-          <include name="lauchsite"/>
-          <include name="quit_browser"/>
+          <include name="testResponsive"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- Cross_browser_Testing.Cross_browser_test -->
+      </class> <!-- BasicTesting.Demo_Responsive -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [1clx] -->
